@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ExampleSite</title>
-    <link>https://joaquin-casanova.github.io/GitHubPages/</link>
+    <link>https://joaquin-casanova.github.io/</link>
     <description>Recent content on ExampleSite</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://joaquin-casanova.github.io/GitHubPages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://joaquin-casanova.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>https://joaquin-casanova.github.io/GitHubPages/posts/initial_posts/</link>
+      <link>https://joaquin-casanova.github.io/posts/initial_posts/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://joaquin-casanova.github.io/GitHubPages/posts/initial_posts/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/initial_posts/</guid>
       <description>Learn about all features</description>
     </item>
     
     <item>
       <title>Archive</title>
-      <link>https://joaquin-casanova.github.io/GitHubPages/archives/</link>
+      <link>https://joaquin-casanova.github.io/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://joaquin-casanova.github.io/GitHubPages/archives/</guid>
+      <guid>https://joaquin-casanova.github.io/archives/</guid>
       <description>archives</description>
     </item>
     
