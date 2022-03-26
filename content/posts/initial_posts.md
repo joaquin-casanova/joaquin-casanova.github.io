@@ -10,6 +10,6 @@ author: "Joaquin C"
 
 ### Intro
 
--   **We'll be learn a lot**
+-   **We'll be learn a lot together**
 
 ---
