@@ -71,15 +71,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B." 
-    Content: "**I am Joaquín Casanova** a Data Engineer at [RappiPay ](https://www.rappipay.mx/).
-            Currently, my interests are focused on data architecture design, developing data pipelines, and MLOps."
+    Content: "**I am Joaquín Casanova** a Physicist and Data Engineer at [RappiPay](https://www.rappipay.mx/).
+            Currently, my interests are focused on data architecture design, data pipeline development, and MLOps."
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/joaquincasanov4"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/joaquincasanova/"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/joaquin-casanova"
 
   analytics:
     google:
