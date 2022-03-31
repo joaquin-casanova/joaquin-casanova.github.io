@@ -8,6 +8,7 @@ tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: false
 ---
+{{< figure align=center src="/posts/make_help.png"  caption="make help" >}}
 
 ### Introducción
 A few days ago I started reading **THE EFFECTIVE ENGINEER** and one of the main sentences that shock me was the following:
