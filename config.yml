@@ -1,5 +1,5 @@
 baseURL: "https://joaquin-casanova.github.io/"
-title: Joaquin Casanova
+title: Joaquin Casanova - Physicist & Data Engineer
 paginate: 5
 theme: PaperMod
 
@@ -17,7 +17,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
-  description: "ExampleSite description"
+  # description: "Joaquin Casanova Blog"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -95,7 +95,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/joaquin-casanova/joaquin-casanova.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
