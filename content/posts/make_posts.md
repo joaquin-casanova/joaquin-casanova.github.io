@@ -1,6 +1,6 @@
 ---
 title: "Makefile"
-summary: Optimiza tu tiempo con Makefile
+summary: Time is your most limited asset
 date: 2022-03-30
 weight: 1
 aliases: ["/papermod-features"]
@@ -10,7 +10,7 @@ draft: false
 ---
 
 ### Introducción
-Hace algunos días comencé con la lectura de **THE EFFECTIVE ENGINEER** y una de las frases que más movió fue la siguiente:
+A few days ago I started reading **THE EFFECTIVE ENGINEER** and one of the main sentences that shock me was the following:
 
 #### THE EFFECTIVE ENGINEER
 
@@ -19,37 +19,40 @@ Hace algunos días comencé con la lectura de **THE EFFECTIVE ENGINEER** y una d
 >"Time is your most limited asset. Identify the habits that produce disproportionately high impact for the time you invest."
 > — <cite>Edmond Lau[^1]</cite>
 
-[^1]: La frase anterior es un extracto de THE EFFECTIVE ENGINEER book [link](https://www.amazon.com.mx/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107).
+[^1]: The above quote is excerpted from THE EFFECTIVE ENGINEER book [link](https://www.amazon.com.mx/Effective-Engineer-Engineering-Disproportionate-Meaningful/dp/0996128107).
 
-### Instrospeción
-Lo anterior me llevó a cuestionarme como podría optimizar mi tiempo en el trabajo, y en esa busqueda me dí cuenta que cuando trabajo en la generación de algún DAG en Airflow normalmente utilizo la misma serie de comandos:
+### Introspection
+This led me to ask myself, How I can optimize my time? And I discover that when I work with Airflow, I frequently follow the same set of commands.
 
 
 
->-   Iniciar en contenedor:
+
+>-   Start container:
 >      -   `astro dev start`
->-   Detener el contenedor:
+>-   Stop container:
 >       -   `astro dev stop`
->-   Revisar linter (Flake8, PyDocStyle y MyPY):
+>-   Check linter (Flake8, PyDocStyle y MyPY):
 >       -   `./development/tools/build.sh`
 >       -   `./development/tools/linter.sh`
->-   Revisar los logs del scheduler:
+>-   Check scheduler logs:
 >       - 	`docker exec -it <container_id> /bin/bash`
 
-bien se podría pensar que no son una cantidad exagerada de comandos, sin embargo frecuentemente me enfrentaba a los siguientes escenarios:
->-  Teclear mal alguna letra de los comandos.
->-  Olvidar el orden de las sentencias.
->-  Olvidar darle start cuando le daba stop.
->-  Ir directo al linter sin realizar el build
+Maybe you can think that it is a few commands however, in my daily work I came across the following scenarios:
+>-  Misspelling commands.
+>-  Forget the order of the statements.
+>-  Forget to give it a start to the container when I gave it a stop.
+>-  Do the linter command without doing the container build
 
-Si bien esto no era todos los días y no todos los comandos este tema si me representaba un estres innecesario en mi día de trabajo además de que sumando mi tiempo perdido y el de mis compañeros (suponiendo que son propensos a los mismos errores), esto se vuelve relevante debido a que es el tiempo de todo un equipo el que se pierde y no se aprovecha en lo que realmente genera valor. 
+Of course, that situation was not every day. However, I was frequently stressed because I was wasting time. Talking with my teammates I realized
+that they face the same problems. That is when this situation takes relevant because is the time of an entire team wasted and is not taken advantage of to
+generate value.
 ### Makefile
-Lo único que necesitas es crear un archivo llamado Makefile
+To tackle this problem, I create a Makefile with the following command:
 ```shell
 $ touch Makefile
 ```
-una vez creado es cuestión de agregar los comando bash que más utilices y desees automatizar mediante alguna bandera, a continuación te muestro el makefile que utilizo:
-#### Ejemplo de mi actual Makefile
+Then I added the bash commands that I used the most. I share with you my current Makefile.
+#### Current Makefile
 ```shell
 help:
 	@echo "available commands"
@@ -88,11 +91,11 @@ term:
 check: build linter
 ```
 
-Una vez creado el documento, si tecleas el siguiente comando:
+Now if I run the following command:
 ```shell
 $ make help
 ```
- obtendras el siguiente resultado:
+it returns:
 ```shell
 available commands
  - start        : start Airflow
@@ -105,6 +108,5 @@ available commands
  - term         : open scheduler terminal
  ```
 
- ### Conclusión
- Hasta ahora llevo apróximadamente un mes con la implementación anterior y no me he vuelto a equivocar además
- de que mis compañeros del equipo se han adaptado y agregado sus propios comandos.
+ ### Conclusion
+So far, I've been using the previous implementation for about a month. I haven't made a mistake.  Another great thing is that my teammates have adapted and added their commands.
