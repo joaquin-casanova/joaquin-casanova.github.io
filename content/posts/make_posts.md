@@ -1,6 +1,6 @@
 ---
 title: "Makefile"
-summary: Makefile
+summary: Optimiza tu tiempo con Makefile
 date: 2022-03-30
 weight: 1
 aliases: ["/papermod-features"]
