@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Data Engineering on Joaquin Casanova</title>
+    <title>Data Engineering on Joaquin Casanova - Physicist &amp; Data Engineer</title>
     <link>https://joaquin-casanova.github.io/tags/data-engineering/</link>
-    <description>Recent content in Data Engineering on Joaquin Casanova</description>
+    <description>Recent content in Data Engineering on Joaquin Casanova - Physicist &amp; Data Engineer</description>
     <image>
       <url>https://joaquin-casanova.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://joaquin-casanova.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -16,7 +16,7 @@
       <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://joaquin-casanova.github.io/posts/make_posts/</guid>
-      <description>Optimiza tu tiempo con Makefile</description>
+      <description>Time is your most limited asset</description>
     </item>
     
   </channel>
