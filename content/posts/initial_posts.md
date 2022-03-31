@@ -4,15 +4,17 @@ summary: Change Data Capture
 date: 2022-03-24
 weight: 1
 aliases: ["/papermod-features"]
-tags: ["code"]
+tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: true
 ---
 
 ### Intro
-
-The request is simple, we need to send data only if we have changes and new data.
+Sometimes we are requested to send data with a specific layout and send only if we have new data or if the data changes in the raw tables. The stakeholders only gave us the raw tables. ¿How do we do that?
 
 ---
 
-{{< figure align=center src="/posts/pipelineflow.png"  caption="pipeline strategy" >}}
+{{< figure align=center src="/posts/pipelineflow.png"  caption="data pipeline" >}}
+
+### Strategy
+
