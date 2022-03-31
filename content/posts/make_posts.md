@@ -7,8 +7,13 @@ aliases: ["/papermod-features"]
 tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: false
+cover:
+    image: "/posts/make_help.png" # image path/url
+    alt: "make help" # alt text
+    caption: "make help" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
 ---
-{{< figure align=center src="/posts/make_help.png"  caption="make help" >}}
 
 ### Introducción
 A few days ago I started reading **THE EFFECTIVE ENGINEER** and one of the main sentences that shock me was the following:
