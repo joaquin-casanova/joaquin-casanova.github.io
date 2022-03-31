@@ -70,7 +70,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hola Mundo\U0001F44B." 
+    Title: "Hola \U0001F44B." 
     Content: "**Soy Joaquín Casanova** Físico e Ingeniero de Datos en [RappiPay](https://www.rappipay.mx/).
             Actualmente, mis intereses se centran en el diseño de arquitecturas de datos, desarrollo de pipelines de datos y MLOps."
   socialIcons:
