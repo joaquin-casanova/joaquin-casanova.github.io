@@ -15,7 +15,7 @@ cover:
     hidden: false # only hide on current single page
 ---
 
-### Introducción
+### Introduction
 A few days ago I started reading **THE EFFECTIVE ENGINEER** and one of the main sentences that shock me was the following:
 
 #### THE EFFECTIVE ENGINEER
