@@ -114,5 +114,18 @@ available commands
  - term         : open scheduler terminal
  ```
 
+ when I need start Airflow ran:
+ ```shell
+ $ make start
+ ```
+ restart the service:
+  ```shell
+ $ make restart
+  ```
+ and finally when I need to check the test only ran:
+ ```shell
+ $ make check
+  ```
+
  ### Conclusion
 So far, I've been using the previous implementation for about a month. I haven't made a mistake.  Another great thing is that my teammates have adapted and added their commands.
