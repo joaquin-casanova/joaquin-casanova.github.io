@@ -71,7 +71,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B." 
-    Content: "**I'm Joaquín Casanova** a Physicist and Data Engineer at [RappiPay](https://www.rappipay.mx/).
+    Content: "**I'm Joaquín Casanova** a Physicist and Data Engineer at [Atrato](https://www.atratopago.com/).
             Currently, my interests are focused on data architecture design, data pipeline development, and MLOps."
   socialIcons:
     - name: twitter
