@@ -48,7 +48,7 @@ $ brew install dbt-redshift
 ```
 To check if you installed dbt-core successfully run the following command:
 ```shell
- $ dbt --version
+$ dbt --version
 ```
 Should you get something quite similar to the following image
 ![dbt version image](/posts/dbt_version.png#center)
@@ -56,7 +56,7 @@ Should you get something quite similar to the following image
 ### Start a dbt project
 At this time, you had all you need to start a dbt project, to do that run the following command:
 ```shell
- $ dbt init
+$ dbt init
 ```
 If this is your first time ever using the tool, it will:
 
