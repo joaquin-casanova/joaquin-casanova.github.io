@@ -67,7 +67,7 @@ If this is your first time ever using the tool, it will:
 ![dbt init image](/posts/dbt_init.png#center)
 
 You will get a folder with the name of your project with the following structure:
-```
+``` shell 
 ├── README.md
 ├── analyses
 ├── dbt_project.yml
@@ -81,6 +81,96 @@ You will get a folder with the name of your project with the following structure
 ├── snapshots
 └── tests
 ```
+At this point you have a dbt project locally and can start to test and build models. However, the idea is to try to collaborate with a team.
 
-Then you can use docker to run dbt, as you will read in this link  [docker for dbt](https://github.com/dbt-labs/dbt-core/tree/main/docker). This docker file is suitable for building dbt Docker images locally or using with CI/CD to automate populating a container registry.
+### Docker for dbt
+You can use docker to run dbt, as you will read in this link  [docker for dbt](https://github.com/dbt-labs/dbt-core/tree/main/docker).
 
+This docker file is suitable for building dbt Docker images locally or using CI/CD to automate populating a container registry.
+
+#### Dockerfile
+I share you my current Dockerfile.
+
+```shell
+# pull official base image
+FROM python:3.10.6-slim-bullseye as base
+
+#install system dependencies
+RUN apt-get update \
+  && apt-get dist-upgrade -y \
+  && apt-get install -y --no-install-recommends \
+    git \
+    ssh-client \
+    software-properties-common \
+    make \
+    build-essential \
+    ca-certificates \
+    libpq-dev \
+  && apt-get clean \
+  && rm -rf \
+    /var/lib/apt/lists/* \
+    /tmp/* \
+    /var/tmp/*
+
+# set enviroments variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+ENV PYTHONIOENCODING=utf-8
+ENV LANG=C.UTF-8
+ENV DBT_PROFILES_DIR /usr/src/app
+
+
+# update python
+RUN python -m pip install --upgrade pip setuptools wheel --no-cache-dir
+
+# set working directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+#add app
+
+COPY . .
+
+ENTRYPOINT ["dbt"]
+
+
+##
+# dbt-core
+##
+FROM base as dbt-core
+ARG dbt_core_ref=dbt-core@v1.3.0
+
+RUN python -m pip install --no-cache-dir "git+https://github.com/dbt-labs/${dbt_core_ref}#egg=dbt-core&subdirectory=core"
+
+
+##
+# dbt-redshift
+##
+FROM base as dbt-redshift
+ARG dbt_redshift_ref=dbt-redshift@v1.3.0
+
+RUN python -m pip install --no-cache-dir "git+https://github.com/dbt-labs/${dbt_redshift_ref}#egg=dbt-redshift"
+
+
+##
+# dbt-third-party
+##
+FROM dbt-core as dbt-third-party
+RUN python -m pip install --no-cache-dir "${dbt_third_party}"
+
+
+RUN dbt deps
+```
+This Dockerfile must be in the same folder that the project
+![dbt docker image](/posts/dbt_docker.png#center)
+
+
+#### Build the image
+```shell
+$ docker build --tag data-models  --target dbt-redshift .
+```
+
+#### Run the image
+```shell
+$ docker run -e DB_NAME='' -e DB_HOST='' -e DB_PASSWORD='' -e DB_PORT='' -e DBT_USER='' -t data-models run 
+```
