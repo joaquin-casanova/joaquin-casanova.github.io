@@ -27,7 +27,7 @@ As dbt user, your main focus will be on writing models (i.e select queries) that
 ### Get started with dbt
 The first thing that you need to know is that dbt can be access through **dbt Core** or **dbt Cloud**.
 > - #### dbt Cloud
-dbt Cloud is the fastest and most reliable way to deploy dbt but also comes with a [price](https://www.getdbt.com/pricing/) if you don't want be a unique use.
+dbt Cloud is the fastest and most reliable way to deploy dbt but also comes with a [price](https://www.getdbt.com/pricing/) if you don't want to be an unique user.
 
 > - #### dbt Core
 dbt Core is an open-source tool, that we can use to deploy dbt without cost. (Spoiler alert: We'll choose this way)
@@ -173,4 +173,9 @@ $ docker build --tag data-models  --target dbt-redshift .
 #### Run the image
 ```shell
 $ docker run -e DB_NAME='' -e DB_HOST='' -e DB_PASSWORD='' -e DB_PORT='' -e DBT_USER='' -t data-models run 
+```
+
+#### Run the docs
+```shell
+$ docker run -e DB_NAME='' -e DB_HOST='' -e DB_PASSWORD='' -e DB_PORT='' -e DBT_USER='' -t data-models docs serve --port 8001
 ```
