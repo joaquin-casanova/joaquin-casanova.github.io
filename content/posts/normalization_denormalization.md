@@ -1,5 +1,5 @@
 ---
-title: "Normalisation & De-Normalisation"
+title: "Normalization & De-Normalization"
 summary: Why is important?
 date: 2023-01-10
 weight: 6
