@@ -175,6 +175,11 @@ $ docker build --tag data-models  --target dbt-redshift .
 $ docker run -e DB_NAME='' -e DB_HOST='' -e DB_PASSWORD='' -e DB_PORT='' -e DBT_USER='' -t data-models run 
 ```
 
+#### Generate the docs
+```shell
+$ docker run -v $PWD:/usr/src/app-e DB_NAME='' -e DB_HOST='' -e DB_PASSWORD='' -e DB_PORT='' -e DBT_USER='' -t data-models docs generate
+```
+
 #### Run the docs
 ```shell
 $ docker run -e DB_NAME='' -e DB_HOST='' -e DB_PASSWORD='' -e DB_PORT='' -e DBT_USER='' -t data-models docs serve --port 8001
