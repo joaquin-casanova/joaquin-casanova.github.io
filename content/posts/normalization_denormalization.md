@@ -17,8 +17,8 @@ cover:
 
 ### Introduction
 
-## Normalisation
+## Normalization
 Normalization is a method of splitting large tables into smaller ones to improve data integrity and to remove data duplication.
 
-## De-Normalisation
-De-normalisation is an optimization technique with the aim of speeding up data retrieval.
+## De-Normalization
+De-normalization is an optimization technique with the aim of speeding up data retrieval.
