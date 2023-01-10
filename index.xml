@@ -9,7 +9,7 @@
       <link>https://joaquin-casanova.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://joaquin-casanova.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://joaquin-casanova.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Makefile</title>
       <link>https://joaquin-casanova.github.io/posts/make_posts/</link>
@@ -44,6 +44,15 @@
       
       <guid>https://joaquin-casanova.github.io/posts/dbt_posts/</guid>
       <description>How run dbt on production</description>
+    </item>
+    
+    <item>
+      <title>Normalisation &amp; De-Normalisation</title>
+      <link>https://joaquin-casanova.github.io/posts/normalization_denormalization/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://joaquin-casanova.github.io/posts/normalization_denormalization/</guid>
+      <description>Why is important?</description>
     </item>
     
     
