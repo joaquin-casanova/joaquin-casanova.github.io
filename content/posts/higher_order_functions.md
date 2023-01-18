@@ -24,8 +24,18 @@ Disclaimer: maybe you use it but you didn't know the name.
 
 ### Higher-Orders Functions
 
-What is a Higher-Order Function?
+#### What is a Higher-Order Function?
 > In mathematics and computer science a **higher-order function** is a function that does at least one of the following:
 >- Take one or more function as argument.
 >- Return a function.
 
+
+### How is that possible?
+Well this happen because the functions are considerer as **First Class Objects** that meaning that the functions are consider as objects and they can do anything an object do.
+
+The properties of a first class functions:
+>- A function is an instance of the Object type.
+>- You can store the function in a variable.
+>- You can pass the function as a parameter to another function.
+>- You can return the function from a function.
+>- You can store them in data structure such as hash, tables, list, ...
