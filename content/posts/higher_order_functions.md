@@ -8,9 +8,9 @@ tags: ["Computer Science"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/database.jpg" # image path/url
-    alt: "library database" # alt text
-    caption: "library database" # display caption under cover
+    image: "/posts/higher_functions.jpg" # image path/url
+    alt: "mathematics functions" # alt text
+    caption: "mathematics functions" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
