@@ -42,10 +42,11 @@ The properties of a first class functions:
 
 ### Why are importants?
 Well, higher order functions simplify our code and keep it DRY.
-Let's do some examples to demonstrate this. In or first example take the following function.
+Let's do some examples to demonstrate this.
 
 #### first order function
 Suppose we have the **copyArrayAndAddOne** function that copy and array of integer and add 1 to each element.
+
 ```shell
 function copyArrayAndAddOne(array) {
     const output = [];
@@ -59,6 +60,7 @@ const result = copyArrayAndAddOne(myArray);
 ```
 
 What if now we want to copy array and rest by 1.
+
 ```shell
 function copyArrayAndRestOne(array) {
     const output = [];
@@ -70,3 +72,35 @@ function copyArrayAndRestOne(array) {
 const myArray = [1, 2, 3];
 const result = copyArrayAndRestOne(myArray);
 ```
+What if now we want a function copyArrayAndMultiplyByThree? 
+
+Well in that case we need to write the function and add the new operation, at this point we may start to notice that our functions repeat a lot of code and we just need to change the operation symbol.
+ 
+> That meaning we are breaking the DRY principle.
+
+#### Higher Order Functions
+We could generalize our function, lets check how.
+
+```shell
+function copyArrayGeneral(array, callback){
+    const output = [];
+    for(let i=0; i<array.length; i++){
+        output.push(callback(array[i]));
+    }
+    return output;
+}
+
+function multiplyByThree(input) { return input * 3 };
+const result = copyArrayGeneral([1, 2, 3], multiplyByThree)
+
+```
+for out first two function we can now use **copyArrayGeneral**:
+
+```shell
+function addOne(input) { return input + 1 };
+const result = copyArrayGeneral([1, 2, 3], addOne)
+
+```
+### Final Thoughts
+Higher order functions are present in other programming languages such as Python and are useful because we can use them to write code with fewer errors and better to understand, finally they help you to be a fast programmer because you can reuse your code.
+This type of programming is know as functional programming.
