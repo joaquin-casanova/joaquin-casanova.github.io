@@ -39,3 +39,34 @@ The properties of a first class functions:
 >- You can pass the function as a parameter to another function.
 >- You can return the function from a function.
 >- You can store them in data structure such as hash, tables, list, ...
+
+### Why are importants?
+Well, higher order functions simplify our code and keep it DRY.
+Let's do some examples to demonstrate this. In or first example take the following function.
+
+#### first order function
+Suppose we have the **copyArrayAndAddOne** function that copy and array of integer and add 1 to each element.
+```shell
+function copyArrayAndAddOne(array) {
+    const output = [];
+    for (let i=0; i < array.length; i++){
+        output.push(array[i] + 1);
+    }
+    return output
+}
+const myArray = [1, 2, 3];
+const result = copyArrayAndAddOne(myArray);
+```
+
+What if now we want to copy array and rest by 1.
+```shell
+function copyArrayAndRestOne(array) {
+    const output = [];
+    for (let i=0; i < array.length; i++){
+        output.push(array[i] - 1);
+    }
+    return output
+}
+const myArray = [1, 2, 3];
+const result = copyArrayAndRestOne(myArray);
+```
