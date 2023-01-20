@@ -90,11 +90,13 @@ function copyArrayGeneral(array, callback){
     return output;
 }
 
+``` 
+for out first two function we can now use **copyArrayGeneral**:
+
+```shell
 function multiplyByThree(input) { return input * 3 };
 const result = copyArrayGeneral([1, 2, 3], multiplyByThree)
-
 ```
-for out first two function we can now use **copyArrayGeneral**:
 
 ```shell
 function addOne(input) { return input + 1 };
