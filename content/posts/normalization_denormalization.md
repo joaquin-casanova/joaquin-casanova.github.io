@@ -16,9 +16,28 @@ cover:
 ---
 
 ### Introduction
+As data engineers we frequently work with databases and it is important to understand the differences between OLTP and OLAP database types.
 
-## Normalization
+>- **OLTP** stand for *On-Line Transaction Processing*.
+>- **OLAP** stand for *On-Line Analytical Processing*.
+
+### OLTP
+The main purpose of the OLTP system is to record typical business transactions related to an organization's activities, such as
+
+- payments (received and made)
+- orders placed
+- etc.
+
+This type of transactional data needs to be:
+
+>- [ACID](https://www.databricks.com/glossary/acid-transactions)
+>- Highly normalized
+
+#### Normalization
 Normalization is a method of splitting large tables into smaller ones to improve data integrity and to remove data duplication.
 
-## De-Normalization
+However calculate metrics is expensive  due to large normalization it is necessary to perform many joins between tables.
+### OLAP
+
+#### De-Normalization
 De-normalization is an optimization technique with the aim of speeding up data retrieval.
