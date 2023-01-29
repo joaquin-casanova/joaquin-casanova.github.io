@@ -21,3 +21,8 @@ In some situations, it is necessary to make predictions on sample batches. Often
 - Execution must be frequent on a recurring schedule.
 
 In this post, we'll see how we can transform that into a pipeline that works in production.
+
+---
+
+### The problem
+To be clear, let's imagine a scenario where the data science team builds a scoring model. Stakeholders say they need to score our new users every week, our task is to put it into production.
