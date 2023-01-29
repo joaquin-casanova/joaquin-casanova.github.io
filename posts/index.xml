@@ -64,5 +64,14 @@
       <description>Functions as Arguments</description>
     </item>
     
+    <item>
+      <title>Batch Machine Learning Model Deployment</title>
+      <link>https://joaquin-casanova.github.io/posts/batch_inference_ml/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://joaquin-casanova.github.io/posts/batch_inference_ml/</guid>
+      <description>Batch ML Model with Fast API and Typer.</description>
+    </item>
+    
   </channel>
 </rss>
