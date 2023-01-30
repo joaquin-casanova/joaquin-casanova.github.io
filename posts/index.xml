@@ -48,10 +48,10 @@
     
     <item>
       <title>OLAP vs OLTP</title>
-      <link>https://joaquin-casanova.github.io/posts/normalization_denormalization/</link>
+      <link>https://joaquin-casanova.github.io/posts/olap_oltp/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://joaquin-casanova.github.io/posts/normalization_denormalization/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/olap_oltp/</guid>
       <description>Why is important?</description>
     </item>
     
