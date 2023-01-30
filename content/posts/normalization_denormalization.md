@@ -1,5 +1,5 @@
 ---
-title: "Normalization & De-Normalization"
+title: "OLAP vs OLTP"
 summary: Why is important?
 date: 2023-01-10
 weight: 6
