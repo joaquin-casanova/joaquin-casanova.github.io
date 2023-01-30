@@ -28,6 +28,8 @@ The main purpose of the OLTP system is to record typical business transactions r
 - orders placed
 - etc.
 
+The emphasis is on *fast processing*, because OLTP databases are read, written and updated frequently. 
+
 This type of transactional data needs to be:
 
 >- [ACID](https://www.databricks.com/glossary/acid-transactions)
@@ -38,6 +40,7 @@ Normalization is a method of splitting large tables into smaller ones to improve
 
 However calculate metrics is expensive  due to large normalization it is necessary to perform many joins between tables.
 ### OLAP
-
+The main propouse of the OLAP system is support complex
+analysis.
 #### De-Normalization
 De-normalization is an optimization technique with the aim of speeding up data retrieval.
