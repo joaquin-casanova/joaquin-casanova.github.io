@@ -2,7 +2,7 @@
 title: "Higher-Order Functions"
 summary: Functions as Arguments
 date: 2023-01-18
-weight: 7
+# weight: 7
 aliases: ["/papermod-features"]
 tags: ["Computer Science"]
 author: "Joaquin C"

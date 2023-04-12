@@ -2,7 +2,7 @@
 title: "Change Data Capture"
 summary: Change Data Capture using Merge
 date: 2022-04-30
-weight: 2
+# weight: 2
 aliases: ["/papermod-features"]
 tags: ["Data Engineering"]
 author: "Joaquin C"

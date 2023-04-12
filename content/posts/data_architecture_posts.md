@@ -2,7 +2,7 @@
 title: "Data Architecture"
 summary: Basic Data Architecture
 date: 2022-06-08
-weight: 4
+# weight: 4
 aliases: ["/papermod-features"]
 tags: ["Data Engineering"]
 author: "Joaquin C"

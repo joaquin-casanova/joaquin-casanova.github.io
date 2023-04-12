@@ -2,7 +2,7 @@
 title: "OLAP vs OLTP"
 summary: Why is important?
 date: 2023-01-10
-weight: 6
+# weight: 6
 aliases: ["/papermod-features"]
 tags: ["Data Engineering"]
 author: "Joaquin C"

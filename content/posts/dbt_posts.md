@@ -2,7 +2,7 @@
 title: "Data build tool"
 summary: How run dbt on production
 date: 2022-11-03
-weight: 5
+# weight: 5
 aliases: ["/papermod-features"]
 tags: ["Data Engineering"]
 author: "Joaquin C"

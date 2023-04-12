@@ -2,7 +2,7 @@
 title: "Batch Machine Learning Model Deployment"
 summary: Batch ML Model with Fast API and Typer.
 date: 2023-02-03
-weight: 8
+# weight: 8
 aliases: ["/papermod-features"]
 tags: ["MLOps"]
 author: "Joaquin C"

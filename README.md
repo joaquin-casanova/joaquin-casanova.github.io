@@ -1,5 +1,9 @@
 ## Personal Blog Powered by Hugo & PaperMod
 
+
+![Continuous Integration and Delivery](https://github.com/joaquin-casanova/joaquin-casanova.github.io/actions/workflows/gh-pages.yml/badge.svg)
+
+
 ### Pre-Requisites
 
 - [Hugo](https://gohugo.io/installation/) v0.105.0 or greater

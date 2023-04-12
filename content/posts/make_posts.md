@@ -2,7 +2,7 @@
 title: "Makefile"
 summary: Time is your most limited asset
 date: 2022-03-30
-weight: 1
+# weight: 1
 aliases: ["/papermod-features"]
 tags: ["Data Engineering"]
 author: "Joaquin C"
