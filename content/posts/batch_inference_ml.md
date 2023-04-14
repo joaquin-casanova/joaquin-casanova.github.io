@@ -26,3 +26,14 @@ In this post, we'll see how we can transform that into a pipeline that works in 
 
 ### The problem
 To be clear, let's imagine a scenario where the data science team builds a scoring model. Stakeholders say they need to score our new users every week, our task is to put it into production.
+
+### The approach
+![dbt version image](/posts/batch_score.png#center)
+To tackle the problem, we will build a Python CLI to pass a command and run the score over the users, we also want to only run the score when we needed. To do that we use the following tools:
+
+>- S3
+>- ECS
+>- [Typer](https://typer.tiangolo.com/)
+>- Docker
+>- [Airflow (MWAA)](https://aws.amazon.com/es/managed-workflows-for-apache-airflow/)
+>- Github Actions
