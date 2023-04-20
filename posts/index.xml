@@ -10,7 +10,16 @@
       <link>https://joaquin-casanova.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://joaquin-casanova.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://joaquin-casanova.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>read-only group Amazon Redshift</title>
+      <link>https://joaquin-casanova.github.io/posts/redshift_read-only/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://joaquin-casanova.github.io/posts/redshift_read-only/</guid>
+      <description>quick grant select?</description>
+    </item>
+    
     <item>
       <title>Batch Machine Learning Model Deployment</title>
       <link>https://joaquin-casanova.github.io/posts/batch_inference_ml/</link>
