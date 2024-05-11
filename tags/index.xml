@@ -9,34 +9,30 @@
       <url>https://joaquin-casanova.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://joaquin-casanova.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://joaquin-casanova.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.112.4</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joaquin-casanova.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Engineering</title>
       <link>https://joaquin-casanova.github.io/tags/data-engineering/</link>
-      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://joaquin-casanova.github.io/tags/data-engineering/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MLOps</title>
       <link>https://joaquin-casanova.github.io/tags/mlops/</link>
-      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://joaquin-casanova.github.io/tags/mlops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Computer Science</title>
       <link>https://joaquin-casanova.github.io/tags/computer-science/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://joaquin-casanova.github.io/tags/computer-science/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
