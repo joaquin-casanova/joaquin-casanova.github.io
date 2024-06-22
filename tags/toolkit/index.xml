@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Toolkit on Joaquin Casanova - Physicist &amp; Data Engineer</title>
+    <link>https://joaquin-casanova.github.io/tags/toolkit/</link>
+    <description>Recent content in Toolkit on Joaquin Casanova - Physicist &amp; Data Engineer</description>
+    <image>
+      <title>Joaquin Casanova - Physicist &amp; Data Engineer</title>
+      <url>https://joaquin-casanova.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://joaquin-casanova.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.112.4</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joaquin-casanova.github.io/tags/toolkit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curate Tech Links</title>
+      <link>https://joaquin-casanova.github.io/posts/curate_tech_links/</link>
+      <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://joaquin-casanova.github.io/posts/curate_tech_links/</guid>
+      <description>Access a curate database</description>
+    </item>
+  </channel>
+</rss>
