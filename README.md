@@ -6,7 +6,7 @@
 
 ### Pre-Requisites
 
-- [Hugo](https://gohugo.io/installation/) v0.112.4 or greater
+- [Hugo](https://gohugo.io/installation/) v0.145.0 or greater
 
 Ensuring that you have Hugo
 ```bash
@@ -17,8 +17,7 @@ $ which version
 ```bash
 $ hugo version
 ```
-hugo v0.127.0+extended darwin/arm64 BuildDate=2024-06-05T10:27:59Z VendorInfo=brew
-
+hugo v0.145.0+extended+withdeploy darwin/arm64 BuildDate=2025-02-26T15:41:25Z VendorInfo=brew
 ### How to run?
 
 ```bash
