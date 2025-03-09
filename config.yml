@@ -1,6 +1,7 @@
 baseURL: "https://joaquin-casanova.github.io/"
 title: Joaquin Casanova - Physicist & Data Engineer
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
