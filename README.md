@@ -1,26 +1,59 @@
 ## Personal Blog Powered by Hugo & PaperMod
 
-
 ![Continuous Integration and Delivery](https://github.com/joaquin-casanova/joaquin-casanova.github.io/actions/workflows/gh-pages.yml/badge.svg)
 
+### Pre-requisites
 
-### Pre-Requisites
+- [Hugo Extended](https://gohugo.io/installation/) v0.146.0 or greater
+- Git
 
-- [Hugo](https://gohugo.io/installation/) v0.145.0 or greater
-
-Ensuring that you have Hugo
+Verify Hugo installation:
 ```bash
-$ which version
+hugo version
 ```
-/opt/homebrew/bin/hugo
 
-```bash
-$ hugo version
-```
-hugo v0.145.0+extended+withdeploy darwin/arm64 BuildDate=2025-02-26T15:41:25Z VendorInfo=brew
-### How to run?
+### Quick Start
 
+1. **Clone the repository with submodules:**
 ```bash
-$ hugo server
+git clone --recurse-submodules https://github.com/joaquin-casanova/joaquin-casanova.github.io.git
+cd joaquin-casanova.github.io
 ```
-Then the Web Server will be available at http://localhost:1313/ (bind address 127.0.0.1)
+
+2. **If you already cloned without submodules, initialize the theme:**
+```bash
+git submodule update --init --recursive
+```
+
+3. **Run local server:**
+```bash
+hugo server
+```
+
+The site will be available at http://localhost:1313/
+
+### Common Commands
+
+| Command | Description |
+|---------|-------------|
+| `hugo server` | Run local development server |
+| `hugo server -D` | Run server including draft posts |
+| `hugo --minify` | Build for production |
+| `hugo new posts/my-post.md` | Create new blog post |
+| `git submodule update --remote --merge` | Update theme to latest version |
+
+### Project Structure
+
+```
+├── content/          # Blog posts and pages
+│   ├── posts/        # Blog posts
+│   ├── about.md      # About page
+│   └── archives.md   # Archives page
+├── layouts/          # Custom template overrides
+├── themes/PaperMod/  # Theme (git submodule)
+└── config.yml        # Hugo configuration
+```
+
+### Deployment
+
+Automatic deployment via GitHub Actions on push to `main` branch.
