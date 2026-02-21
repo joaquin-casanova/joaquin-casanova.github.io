@@ -3,12 +3,12 @@ title: "read-only group Amazon Redshift"
 summary: quick grant select?
 date: 2023-04-20
 # weight: 6
-aliases: ["/papermod-features"]
+aliases: ["/posts/redshift_read-only/"]
 tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/read_sql.jpg" # image path/url
+    image: "/posts/data-engineering/images/read_sql.jpg" # image path/url
     alt: "read database" # alt text
     caption: "library database" # display caption under cover
     relative: false # when using page bundles set this to true

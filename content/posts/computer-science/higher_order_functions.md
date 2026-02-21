@@ -3,12 +3,12 @@ title: "Higher-Order Functions"
 summary: Functions as Arguments
 date: 2023-01-18
 # weight: 7
-aliases: ["/papermod-features"]
+aliases: ["/posts/higher_order_functions/"]
 tags: ["Computer Science"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/higher_functions.jpg" # image path/url
+    image: "/posts/computer-science/images/higher_functions.jpg" # image path/url
     alt: "mathematics functions" # alt text
     caption: "mathematics functions" # display caption under cover
     relative: false # when using page bundles set this to true

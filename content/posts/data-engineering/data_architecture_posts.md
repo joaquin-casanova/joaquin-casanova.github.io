@@ -3,12 +3,12 @@ title: "Data Architecture"
 summary: Basic Data Architecture
 date: 2022-06-08
 # weight: 4
-aliases: ["/papermod-features"]
+aliases: ["/posts/data_architecture_posts/"]
 tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/bridge.jpeg" # image path/url
+    image: "/posts/data-engineering/images/bridge.jpeg" # image path/url
     alt: "data architecture" # alt text
     caption: "data architecture" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -27,7 +27,7 @@ One of the DATA ENGINEERING TEAM's main objectives is to ensure data reliability
 The DevOps and SWE best practices play a fundamental role, we try to implement both in DE.
 
 So far I used at least one year the following architecture:
-![architecture image](/posts/data_architecture.png)
+![architecture image](/posts/data-engineering/images/data_architecture.png)
 The idea behind is focuses in:
 
 > - TDD

@@ -3,12 +3,12 @@ title: "Batch Machine Learning Model Deployment"
 summary: Batch ML Model with Fast API and Typer.
 date: 2023-02-03
 # weight: 8
-aliases: ["/papermod-features"]
+aliases: ["/posts/batch_inference_ml/"]
 tags: ["MLOps"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/batch_mlops_pipeline.jpg" # image path/url
+    image: "/posts/mlops/images/batch_mlops_pipeline.jpg" # image path/url
     alt: "data pipeline" # alt text
     caption: "data pipeline" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -28,7 +28,7 @@ In this post, we'll see how we can transform that into a pipeline that works in 
 To be clear, let's imagine a scenario where the data science team builds a scoring model. Stakeholders say they need to score our new users every week, our task is to put it into production.
 
 ### The approach
-![dbt version image](/posts/batch_score.png#center)
+![dbt version image](/posts/mlops/images/batch_score.png#center)
 To tackle the problem, we will build a Python CLI to pass a command and run the score over the users, we also want to only run the score when we needed. To do that we use the following tools:
 
 >- S3

@@ -3,12 +3,12 @@ title: "Makefile"
 summary: Time is your most limited asset
 date: 2022-03-30
 # weight: 1
-aliases: ["/papermod-features"]
+aliases: ["/posts/make_posts/"]
 tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/make_help.png" # image path/url
+    image: "/posts/data-engineering/images/make_help.png" # image path/url
     alt: "make help" # alt text
     caption: "make help" # display caption under cover
     relative: false # when using page bundles set this to true

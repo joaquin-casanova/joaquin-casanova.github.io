@@ -3,12 +3,12 @@ title: "Change Data Capture"
 summary: Change Data Capture using Merge
 date: 2022-04-30
 # weight: 2
-aliases: ["/papermod-features"]
+aliases: ["/posts/cdc_posts/"]
 tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/data_pipeline.png" # image path/url
+    image: "/posts/data-engineering/images/data_pipeline.png" # image path/url
     alt: "data pipeline" # alt text
     caption: "data pipeline" # display caption under cover
     relative: false # when using page bundles set this to true
