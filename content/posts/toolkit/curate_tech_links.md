@@ -3,7 +3,7 @@ title: "Curate Tech Links"
 summary: Access a curate database
 date: 2024-06-22
 # weight: 7
-aliases: ["/papermod-features"]
+aliases: ["/posts/curate_tech_links/"]
 tags: ["Toolkit"]
 author: "Joaquin C"
 draft: false

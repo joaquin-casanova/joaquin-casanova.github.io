@@ -3,12 +3,12 @@ title: "OLAP vs OLTP"
 summary: Why is important?
 date: 2023-01-10
 # weight: 6
-aliases: ["/papermod-features"]
+aliases: ["/posts/olap_oltp/"]
 tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/database.jpg" # image path/url
+    image: "/posts/data-engineering/images/database.jpg" # image path/url
     alt: "library database" # alt text
     caption: "library database" # display caption under cover
     relative: false # when using page bundles set this to true

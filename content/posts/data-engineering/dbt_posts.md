@@ -3,12 +3,12 @@ title: "Data build tool"
 summary: How run dbt on production
 date: 2022-11-03
 # weight: 5
-aliases: ["/papermod-features"]
+aliases: ["/posts/dbt_posts/"]
 tags: ["Data Engineering"]
 author: "Joaquin C"
 draft: false
 cover:
-    image: "/posts/analytics-engineering-dbt.png" # image path/url
+    image: "/posts/data-engineering/images/analytics-engineering-dbt.png" # image path/url
     alt: "data pipeline" # alt text
     caption: "data pipeline" # display caption under cover
     relative: false # when using page bundles set this to true
@@ -51,7 +51,7 @@ To check if you installed dbt-core successfully run the following command:
 $ dbt --version
 ```
 Should you get something quite similar to the following image
-![dbt version image](/posts/dbt_version.png#center)
+![dbt version image](/posts/data-engineering/images/dbt_version.png#center)
 
 ### Start a dbt project
 At this time, you had all you need to start a dbt project, to do that run the following command:
@@ -64,7 +64,7 @@ If this is your first time ever using the tool, it will:
 > - Ask you which database adapter you're using (or to Supported Data Platforms).
 > - prompt you for each piece of information that dbt needs to connect to that database: account,user, password, etc.
 
-![dbt init image](/posts/dbt_init.png#center)
+![dbt init image](/posts/data-engineering/images/dbt_init.png#center)
 
 You will get a folder with the name of your project with the following structure:
 ``` shell 
@@ -165,7 +165,7 @@ RUN dbt deps
 RUN dbt docs generate
 ```
 This Dockerfile must be in the same folder that the project
-![dbt docker image](/posts/dbt_docker.png#center)
+![dbt docker image](/posts/data-engineering/images/dbt_docker.png#center)
 
 
 #### Build the image
