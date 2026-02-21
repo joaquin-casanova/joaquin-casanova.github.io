@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://joaquin-casanova.github.io/posts/curate_tech_links/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/toolkit/curate_tech_links/</loc>
     <lastmod>2024-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joaquin-casanova.github.io/</loc>
@@ -20,10 +20,10 @@
     <loc>https://joaquin-casanova.github.io/tags/data-engineering/</loc>
     <lastmod>2023-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joaquin-casanova.github.io/posts/redshift_read-only/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/data-engineering/redshift_read-only/</loc>
     <lastmod>2023-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joaquin-casanova.github.io/posts/batch_inference_ml/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/mlops/batch_inference_ml/</loc>
     <lastmod>2023-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joaquin-casanova.github.io/tags/mlops/</loc>
@@ -32,25 +32,25 @@
     <loc>https://joaquin-casanova.github.io/tags/computer-science/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joaquin-casanova.github.io/posts/higher_order_functions/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/computer-science/higher_order_functions/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joaquin-casanova.github.io/posts/olap_oltp/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/data-engineering/olap_oltp/</loc>
     <lastmod>2023-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joaquin-casanova.github.io/about/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joaquin-casanova.github.io/posts/dbt_posts/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/data-engineering/dbt_posts/</loc>
     <lastmod>2022-11-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joaquin-casanova.github.io/posts/data_architecture_posts/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/data-engineering/data_architecture_posts/</loc>
     <lastmod>2022-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joaquin-casanova.github.io/posts/cdc_posts/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/data-engineering/cdc_posts/</loc>
     <lastmod>2022-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://joaquin-casanova.github.io/posts/make_posts/</loc>
+    <loc>https://joaquin-casanova.github.io/posts/data-engineering/make_posts/</loc>
     <lastmod>2022-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://joaquin-casanova.github.io/archives/</loc>

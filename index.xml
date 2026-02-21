@@ -15,37 +15,37 @@
     <atom:link href="https://joaquin-casanova.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Curate Tech Links</title>
-      <link>https://joaquin-casanova.github.io/posts/curate_tech_links/</link>
+      <link>https://joaquin-casanova.github.io/posts/toolkit/curate_tech_links/</link>
       <pubDate>Sat, 22 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/curate_tech_links/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/toolkit/curate_tech_links/</guid>
       <description>Access a curate database</description>
     </item>
     <item>
       <title>read-only group Amazon Redshift</title>
-      <link>https://joaquin-casanova.github.io/posts/redshift_read-only/</link>
+      <link>https://joaquin-casanova.github.io/posts/data-engineering/redshift_read-only/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/redshift_read-only/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/data-engineering/redshift_read-only/</guid>
       <description>quick grant select?</description>
     </item>
     <item>
       <title>Batch Machine Learning Model Deployment</title>
-      <link>https://joaquin-casanova.github.io/posts/batch_inference_ml/</link>
+      <link>https://joaquin-casanova.github.io/posts/mlops/batch_inference_ml/</link>
       <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/batch_inference_ml/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/mlops/batch_inference_ml/</guid>
       <description>Batch ML Model with Fast API and Typer.</description>
     </item>
     <item>
       <title>Higher-Order Functions</title>
-      <link>https://joaquin-casanova.github.io/posts/higher_order_functions/</link>
+      <link>https://joaquin-casanova.github.io/posts/computer-science/higher_order_functions/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/higher_order_functions/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/computer-science/higher_order_functions/</guid>
       <description>Functions as Arguments</description>
     </item>
     <item>
       <title>OLAP vs OLTP</title>
-      <link>https://joaquin-casanova.github.io/posts/olap_oltp/</link>
+      <link>https://joaquin-casanova.github.io/posts/data-engineering/olap_oltp/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/olap_oltp/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/data-engineering/olap_oltp/</guid>
       <description>Why is important?</description>
     </item>
     <item>
@@ -66,30 +66,30 @@
     </item>
     <item>
       <title>Data build tool</title>
-      <link>https://joaquin-casanova.github.io/posts/dbt_posts/</link>
+      <link>https://joaquin-casanova.github.io/posts/data-engineering/dbt_posts/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/dbt_posts/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/data-engineering/dbt_posts/</guid>
       <description>How run dbt on production</description>
     </item>
     <item>
       <title>Data Architecture</title>
-      <link>https://joaquin-casanova.github.io/posts/data_architecture_posts/</link>
+      <link>https://joaquin-casanova.github.io/posts/data-engineering/data_architecture_posts/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/data_architecture_posts/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/data-engineering/data_architecture_posts/</guid>
       <description>Basic Data Architecture</description>
     </item>
     <item>
       <title>Change Data Capture</title>
-      <link>https://joaquin-casanova.github.io/posts/cdc_posts/</link>
+      <link>https://joaquin-casanova.github.io/posts/data-engineering/cdc_posts/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/cdc_posts/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/data-engineering/cdc_posts/</guid>
       <description>Change Data Capture using Merge</description>
     </item>
     <item>
       <title>Makefile</title>
-      <link>https://joaquin-casanova.github.io/posts/make_posts/</link>
+      <link>https://joaquin-casanova.github.io/posts/data-engineering/make_posts/</link>
       <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/posts/make_posts/</guid>
+      <guid>https://joaquin-casanova.github.io/posts/data-engineering/make_posts/</guid>
       <description>Time is your most limited asset</description>
     </item>
   </channel>
