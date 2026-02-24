@@ -91,9 +91,9 @@ params:
   #     SiteVerificationTag: "your-yandex-verification-tag"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/joaquin-casanova/joaquin-casanova.github.io/tree/main/content"
