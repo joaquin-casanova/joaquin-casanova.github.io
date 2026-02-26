@@ -9,8 +9,8 @@ author: "Joaquin C"
 draft: false
 cover:
     image: "/posts/ai/images/imag.jpg" # image path/url
-    alt: "mathematics functions" # alt text
-    caption: "mathematics functions" # display caption under cover
+    alt: "Model Context Protocol" # alt text
+    caption: "Model Context Protocol" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
@@ -67,8 +67,6 @@ I followed the AWS documentation for the initial setup, but I kept the configura
 
 Before configuring the MCP server, I needed a few basics in place:
 
-- Install uv from Astral or the GitHub README
-- Install Python 3.10 or newer using uv python install 3.10 (or a more recent version)
 
 - `uv` installed (Astral)
 - Python 3.10+ available
