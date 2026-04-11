@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Manager on Joaquin Casanova - Physicist &amp; Data Engineer</title>
+    <link>https://joaquin-casanova.github.io/tags/data-manager/</link>
+    <description>Recent content in Data Manager on Joaquin Casanova - Physicist &amp; Data Engineer</description>
+    <image>
+      <title>Joaquin Casanova - Physicist &amp; Data Engineer</title>
+      <url>https://joaquin-casanova.github.io/images/profile.jpg</url>
+      <link>https://joaquin-casanova.github.io/images/profile.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://joaquin-casanova.github.io/tags/data-manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Packaging</title>
+      <link>https://joaquin-casanova.github.io/posts/platform-engineering/distributed_packaging/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://joaquin-casanova.github.io/posts/platform-engineering/distributed_packaging/</guid>
+      <description>Distributed Packaging to delete code duplication in data teams</description>
+    </item>
+  </channel>
+</rss>

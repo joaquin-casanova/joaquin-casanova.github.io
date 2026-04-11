@@ -9,10 +9,17 @@
       <url>https://joaquin-casanova.github.io/images/profile.jpg</url>
       <link>https://joaquin-casanova.github.io/images/profile.jpg</link>
     </image>
-    <generator>Hugo -- 0.148.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://joaquin-casanova.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Packaging</title>
+      <link>https://joaquin-casanova.github.io/posts/platform-engineering/distributed_packaging/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://joaquin-casanova.github.io/posts/platform-engineering/distributed_packaging/</guid>
+      <description>Distributed Packaging to delete code duplication in data teams</description>
+    </item>
     <item>
       <title>MCP for Data Engineers</title>
       <link>https://joaquin-casanova.github.io/posts/ai/model_context_protocol/</link>
