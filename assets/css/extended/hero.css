@@ -1,0 +1,174 @@
+.hero-section {
+  max-width: 580px;
+  padding: 3.5rem 0 2.5rem;
+  border-bottom: none;
+}
+
+.hero-name {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin: 0 0 1.5rem;
+}
+
+.hero-headline {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: var(--primary);
+  margin: 0 0 1.25rem;
+  border: none;
+}
+
+/* strip default h1 styling PaperMod may apply */
+.hero-section h1 {
+  padding: 0;
+}
+
+.hero-body {
+  font-size: 0.975rem;
+  line-height: 1.7;
+  color: var(--secondary);
+  max-width: 480px;
+  margin: 0 0 2rem;
+}
+
+.hero-body p {
+  margin: 0;
+}
+
+.hero-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hero-cta {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+}
+
+.hero-cta:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.hero-divider {
+  color: var(--secondary);
+  opacity: 0.35;
+  font-size: 0.875rem;
+  user-select: none;
+}
+
+.hero-social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.hero-social-link {
+  font-size: 0.78rem;
+  color: var(--secondary);
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  opacity: 0.65;
+  transition: opacity 0.2s ease;
+}
+
+.hero-social-link:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Featured Writing section */
+.recent-writing {
+  max-width: 580px;
+  padding-top: 3rem;
+  border-top: 1px solid var(--border);
+  margin-top: 1rem;
+}
+
+.recent-writing-intro {
+  font-size: 0.875rem;
+  color: var(--secondary);
+  margin: 0 0 2rem;
+  line-height: 1.6;
+  opacity: 0.75;
+}
+
+.featured-post {
+  margin-bottom: 1.75rem;
+}
+
+.featured-post-title {
+  font-size: 0.975rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.featured-post-title:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.featured-post-desc {
+  font-size: 0.875rem;
+  color: var(--secondary);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.recent-writing-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.825rem;
+  font-weight: 500;
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.recent-writing-more:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .hero-section {
+    padding: 2rem 0 1.5rem;
+  }
+
+  .hero-headline {
+    font-size: 1.4rem;
+  }
+
+  .hero-divider {
+    display: none;
+  }
+
+  .hero-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.875rem;
+  }
+
+  .hero-social {
+    gap: 0.875rem;
+  }
+}

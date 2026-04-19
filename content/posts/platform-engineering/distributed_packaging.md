@@ -104,3 +104,7 @@ pip install data_platform_toolkit==0.1.0 --extra-index-url https://pypi.org/simp
 pip install data_platform_toolkit --extra-index-url https://pypi.org/simple
 ```
 > You need AWS credentials with read access to the `data-platform` CodeArtifact domain.
+
+---
+
+*If you're building internal data platforms or dealing with code fragmentation across data teams, [I occasionally work with teams on exactly this kind of problem](/get-in-touch/).*

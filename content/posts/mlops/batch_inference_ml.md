@@ -37,3 +37,7 @@ To tackle the problem, we will build a Python CLI to pass a command and run the 
 >- Docker
 >- [Airflow (MWAA)](https://aws.amazon.com/es/managed-workflows-for-apache-airflow/)
 >- Github Actions
+
+---
+
+*I work with engineering teams on production ML systems — taking batch inference pipelines from prototype to something that actually runs reliably. If this is the kind of problem you're working on, [here's how I engage](/get-in-touch/).*

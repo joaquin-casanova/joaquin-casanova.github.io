@@ -12,11 +12,14 @@ Personal blog/portfolio for Joaquin Casanova, built with Hugo and the PaperMod t
 # Run local development server (http://localhost:1313/)
 hugo server
 
+# Run dev server including draft posts
+hugo server -D
+
 # Build site for production
 hugo --minify
 
-# Create new blog post
-hugo new posts/my-post-title.md
+# Create new blog post (place under content/posts/{category}/)
+hugo new posts/{category}/my-post-title.md
 
 # Create new page
 hugo new my-page.md
@@ -35,14 +38,19 @@ git submodule update --remote --merge
 **Theme**: PaperMod (Git submodule at `themes/PaperMod/`)
 
 **Content Structure**:
-- `content/posts/` - Blog posts (data engineering, MLOps topics)
+- `content/posts/{category}/` - Blog posts organized by topic (current: `ai/`, `computer-science/`, `data-engineering/`, `mlops/`, `platform-engineering/`, `toolkit/`)
 - `content/about.md` - About page
 - `content/archives.md` - Archive page (uses special layout)
 
+**Post front matter** — use `archetypes/Page.md` as the template. Key fields:
+- `cover.image` / `cover.alt` / `cover.caption` — post cover image; set `relative: true` when using a page bundle
+- `tags` — drives the Tags taxonomy page
+- `draft: true` — keeps post out of production build until ready
+
 **Customizations**:
-- `layouts/partials/comments.html` - Disqus integration
+- `layouts/partials/comments.html` - Disqus integration (shortname: `https-joaquin-casanova-github-io`)
 - `layouts/shortcodes/iframe.html` - Custom iframe shortcode: `{{< iframe "url" "width" "height" >}}`
-- `archetypes/Page.md` - Extended page template with all PaperMod options
+- `archetypes/Page.md` - Extended page template with all PaperMod front matter options
 
 **Configuration** (`config.yml`):
 - Dark theme by default, toggle enabled

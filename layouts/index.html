@@ -1,0 +1,24 @@
+{{- define "main" }}
+{{- partial "home_info.html" . }}
+
+<section class="recent-writing">
+  <p class="recent-writing-intro">A few essays on production AI systems, data platforms, and technical infrastructure.</p>
+
+  <div class="featured-post">
+    <a href="/posts/ai/model_context_protocol/" class="featured-post-title">MCP for Data Engineers</a>
+    <p class="featured-post-desc">How I think about connecting data systems to LLM workflows in a practical, production-minded way.</p>
+  </div>
+
+  <div class="featured-post">
+    <a href="/posts/platform-engineering/distributed_packaging/" class="featured-post-title">Distributed Packaging</a>
+    <p class="featured-post-desc">Reducing duplication in data teams by treating shared tooling as a platform problem.</p>
+  </div>
+
+  <div class="featured-post">
+    <a href="/posts/data-engineering/dbt_posts/" class="featured-post-title">Getting started with dbt</a>
+    <p class="featured-post-desc">A practical introduction to dbt Core, from project setup to Docker-based workflows on Redshift.</p>
+  </div>
+
+  <a href="/posts/" class="recent-writing-more">View all writing →</a>
+</section>
+{{- end }}

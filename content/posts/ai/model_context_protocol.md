@@ -212,3 +212,7 @@ Cluster details:
 {{< figure src="/posts/ai/images/cluster_details.png" alt="Claude conversation How many nodes does the cluster have and what type are they?" caption="Example: Asking Claude How many nodes does the cluster have and what type are they?" align="center" >}}
 
 I don't have to remember the system table names. I don't have to switch tools. I don't have to reconstruct a query I last wrote three weeks ago. I just ask.
+
+---
+
+*I work with engineering teams on MCP integrations, production AI systems, and data platform builds. If you're exploring how to connect AI to your internal data systems, [here's how I engage with teams](/get-in-touch/).*
