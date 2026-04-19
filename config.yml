@@ -1,5 +1,5 @@
 baseURL: "https://joaquin-casanova.github.io/"
-title: Joaquin Casanova - Physicist & Data Engineer
+title: Joaquin Casanova
 pagination:
   pagerSize: 5
 theme: PaperMod
@@ -17,9 +17,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "Joaquin Casanova - Physicist & Data Engineer"
-  description: "Joaquin Casanova - Physicist & Data Engineer"
-  keywords: [Blog, Portfolio, PaperMod]
+  mainSections: []
+  title: "Joaquin Casanova"
+  description: "I build AI systems that actually ship. Data platforms, MCP integrations, and production ML on AWS."
+  keywords: [Data Engineering, MLOps, AI Systems, MCP, Production ML, AWS, Platform Engineering]
   author: "Joaquin Casanova"
   # author: ["Me", "You"] # multiple authors
   images: ["/images/profile.jpg"]
@@ -71,9 +72,9 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B." 
-    Content: "**I'm Joaquín Casanova** a Physicist and Lead Data Engineer | MLOps at [Atrato](https://www.atratopago.com/).
-             Currently, my interests are focus on Data Architecture Design, Machine Learning and MLOps."
+    Title: "Data platforms and AI infrastructure."
+    Content: "I design and build the systems behind modern data teams — platform architecture, 
+      production workflows, and the infrastructure that supports reliable AI systems."
   socialIcons:
     - name: twitter
       url: "https://twitter.com/joaquincasanov4"
@@ -112,22 +113,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Archives
-      name: Archive
-      url: archives
-      weight: 5 
+    - identifier: get-in-touch
+      name: Get in Touch
+      url: /get-in-touch/
+      weight: 5
     - identifier: posts
-      name: posts
+      name: Writing
       url: /posts/
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: tags/
-      weight: 20
     - identifier: about
       name: About
       url: about/
-      weight: 30
+      weight: 20
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

@@ -1,0 +1,15 @@
+{{- with site.Params.homeInfoParams }}
+<article class="hero-section">
+  <h1 class="hero-headline">{{ .Title | markdownify }}</h1>
+  <div class="hero-body">{{ .Content | markdownify }}</div>
+  <div class="hero-footer">
+    <a href="/get-in-touch/" class="hero-cta">Get in touch</a>
+    <span class="hero-divider">·</span>
+    <nav class="hero-social" aria-label="Social links">
+      {{- range site.Params.socialIcons }}
+      <a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer" class="hero-social-link">{{ .name }}</a>
+      {{- end }}
+    </nav>
+  </div>
+</article>
+{{- end }}
