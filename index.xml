@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Joaquin Casanova - Physicist &amp; Data Engineer</title>
+    <title>Joaquin Casanova</title>
     <link>https://joaquin-casanova.github.io/</link>
-    <description>Recent content on Joaquin Casanova - Physicist &amp; Data Engineer</description>
+    <description>Recent content on Joaquin Casanova</description>
     <image>
-      <title>Joaquin Casanova - Physicist &amp; Data Engineer</title>
+      <title>Joaquin Casanova</title>
       <url>https://joaquin-casanova.github.io/images/profile.jpg</url>
       <link>https://joaquin-casanova.github.io/images/profile.jpg</link>
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://joaquin-casanova.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work With Me</title>
+      <link>https://joaquin-casanova.github.io/get-in-touch/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://joaquin-casanova.github.io/get-in-touch/</guid>
+      <description>I work with engineering teams on production AI systems, data platform builds, and MCP integrations. Short, focused engagements with a clear deliverable.</description>
+    </item>
     <item>
       <title>Distributed Packaging</title>
       <link>https://joaquin-casanova.github.io/posts/platform-engineering/distributed_packaging/</link>
@@ -67,16 +74,9 @@
       <link>https://joaquin-casanova.github.io/about/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://joaquin-casanova.github.io/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a &lt;strong&gt;Physicist&lt;/strong&gt; and &lt;strong&gt;Lead Data Engineer | MLOps&lt;/strong&gt; at &lt;a href=&#34;https://www.atratopago.com/&#34;&gt;Atrato&lt;/a&gt;, passionate about building scalable data solutions and machine learning systems.&lt;/p&gt;
-&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
-&lt;p&gt;With a strong foundation in physics, I transitioned into the data engineering world where I focus on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Data Architecture Design&lt;/strong&gt; - Building robust, scalable data pipelines&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Machine Learning Operations (MLOps)&lt;/strong&gt; - Deploying and maintaining ML systems in production&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data Engineering&lt;/strong&gt; - Creating efficient data processing workflows&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;current-focus&#34;&gt;Current Focus&lt;/h3&gt;
-&lt;p&gt;My current interests revolve around:&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m Joaquin Casanova. I build data platforms and AI systems that work in production.&lt;/p&gt;
+&lt;p&gt;My background is in physics, which means I learned early to reason from first principles before touching a computer. That habit has been more useful than any framework — it&amp;rsquo;s how I approach data architecture, model design, and the kind of AI integration work that breaks when the assumptions don&amp;rsquo;t hold.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve spent the last several years building at the intersection of data engineering, MLOps, and AI systems, primarily on AWS. I&amp;rsquo;ve designed batch inference pipelines, built internal data platforms, led teams through the transition from manual data processes to automated ML workflows, and more recently started building with MCP and agent architectures to connect AI to real internal systems.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data build tool</title>
