@@ -107,4 +107,4 @@ pip install data_platform_toolkit --extra-index-url https://pypi.org/simple
 
 ---
 
-*If you're building internal data platforms or dealing with code fragmentation across data teams, [I occasionally work with teams on exactly this kind of problem](/get-in-touch/).*
+*If you're building internal data platforms or dealing with code fragmentation across data teams, [I occasionally work with teams on exactly this kind of problem](https://www.linkedin.com/in/joaquincasanova/).*

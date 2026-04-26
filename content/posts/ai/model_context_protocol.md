@@ -215,4 +215,4 @@ I don't have to remember the system table names. I don't have to switch tools. I
 
 ---
 
-*I work with engineering teams on MCP integrations, production AI systems, and data platform builds. If you're exploring how to connect AI to your internal data systems, [here's how I engage with teams](/get-in-touch/).*
+*I work with engineering teams on MCP integrations, production AI systems, and data platform builds. If you're exploring how to connect AI to your internal data systems, [reach out on LinkedIn](https://www.linkedin.com/in/joaquincasanova/).*
