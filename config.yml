@@ -113,10 +113,6 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: get-in-touch
-      name: Get in Touch
-      url: /get-in-touch/
-      weight: 5
     - identifier: posts
       name: Writing
       url: /posts/
