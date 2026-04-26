@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://joaquin-casanova.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Work With Me</title>
-      <link>https://joaquin-casanova.github.io/get-in-touch/</link>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://joaquin-casanova.github.io/get-in-touch/</guid>
-      <description>I work with engineering teams on production AI systems, data platform builds, and MCP integrations. Short, focused engagements with a clear deliverable.</description>
-    </item>
     <item>
       <title>Distributed Packaging</title>
       <link>https://joaquin-casanova.github.io/posts/platform-engineering/distributed_packaging/</link>
