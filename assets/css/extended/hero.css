@@ -47,29 +47,6 @@
   flex-wrap: wrap;
 }
 
-.hero-cta {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--primary);
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
-  transition: opacity 0.2s ease;
-  white-space: nowrap;
-}
-
-.hero-cta:hover {
-  opacity: 0.5;
-  text-decoration: none;
-}
-
-.hero-divider {
-  color: var(--secondary);
-  opacity: 0.35;
-  font-size: 0.875rem;
-  user-select: none;
-}
-
 .hero-social {
   display: flex;
   gap: 1rem;
@@ -77,12 +54,11 @@
 }
 
 .hero-social-link {
-  font-size: 0.78rem;
+  font-size: 0.875rem;
   color: var(--secondary);
   text-decoration: none;
-  text-transform: capitalize;
   letter-spacing: 0.02em;
-  opacity: 0.65;
+  opacity: 0.75;
   transition: opacity 0.2s ease;
 }
 
@@ -100,11 +76,10 @@
 }
 
 .recent-writing-intro {
-  font-size: 0.875rem;
+  font-size: 0.975rem;
   color: var(--secondary);
   margin: 0 0 2rem;
-  line-height: 1.6;
-  opacity: 0.75;
+  line-height: 1.7;
 }
 
 .featured-post {
@@ -113,7 +88,7 @@
 
 .featured-post-title {
   font-size: 0.975rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--primary);
   text-decoration: none;
   transition: opacity 0.2s ease;
@@ -127,26 +102,57 @@
 }
 
 .featured-post-desc {
-  font-size: 0.875rem;
+  font-size: 0.975rem;
   color: var(--secondary);
-  line-height: 1.6;
+  line-height: 1.7;
   margin: 0;
-  opacity: 0.8;
 }
 
 .recent-writing-more {
   display: inline-block;
   margin-top: 0.5rem;
-  font-size: 0.825rem;
-  font-weight: 500;
+  font-size: 0.875rem;
   color: var(--secondary);
   text-decoration: none;
-  transition: color 0.2s ease;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
 }
 
 .recent-writing-more:hover {
-  color: var(--primary);
+  opacity: 1;
   text-decoration: none;
+}
+
+/* Post page typography — match hero scale */
+.post-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.post-content {
+  font-size: 0.975rem;
+  line-height: 1.7;
+}
+
+.post-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin: 2rem auto 1rem;
+}
+
+.post-content h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 1.5rem auto 0.75rem;
+}
+
+.post-content h4 {
+  font-size: 0.975rem;
+  font-weight: 600;
 }
 
 @media (max-width: 640px) {
@@ -156,10 +162,6 @@
 
   .hero-headline {
     font-size: 1.4rem;
-  }
-
-  .hero-divider {
-    display: none;
   }
 
   .hero-footer {
