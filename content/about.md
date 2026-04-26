@@ -22,7 +22,7 @@ My current focus: production AI systems, internal intelligence layers, and the d
 
 I write about what I build. The posts here are technical and specific.
 
-If you're building something in this space and want to work together, [reach out](mailto:joaquin.casanova.c@gmail.com) or visit the [Work With Me](/get-in-touch/) page.
+If you're building something in this space and want to work together, [reach out on LinkedIn](https://www.linkedin.com/in/joaquincasanova/).
 
 ---
 

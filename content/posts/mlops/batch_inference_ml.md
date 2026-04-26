@@ -40,4 +40,4 @@ To tackle the problem, we will build a Python CLI to pass a command and run the 
 
 ---
 
-*I work with engineering teams on production ML systems — taking batch inference pipelines from prototype to something that actually runs reliably. If this is the kind of problem you're working on, [here's how I engage](/get-in-touch/).*
+*I work with engineering teams on production ML systems — taking batch inference pipelines from prototype to something that actually runs reliably. If this is the kind of problem you're working on, [reach out on LinkedIn](https://www.linkedin.com/in/joaquincasanova/).*
